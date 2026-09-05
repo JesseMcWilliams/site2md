@@ -1,0 +1,22 @@
+[project]
+name = "site2md"
+version = "0.1.0"
+description = "Crawl a site (following same-site links) and convert every page to Markdown via Microsoft MarkItDown, with a headless-browser fallback that expands collapsed/JS-rendered content."
+requires-python = ">=3.10"
+dependencies = [
+    "markitdown>=0.1.0",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "playwright>=1.45",
+]
+
+[project.scripts]
+site2md = "site2md.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["site2md*"]
