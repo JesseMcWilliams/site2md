@@ -22,4 +22,4 @@ site2md <start-url> -o <output-dir> [options]
 
 For the full option reference, output layout, and guidance on scoping crawls,
 handling bot-blocking or JS-rendered sites, and troubleshooting, see
-[USAGE.md](USAGE.md).
+[User_Docs/Usage.md](User_Docs/Usage.md).

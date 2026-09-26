@@ -1,7 +1,7 @@
 # site2md — Usage Guide
 
 A complete walkthrough of site2md's options and behavior. For a quick overview and
-install steps, see [README.md](README.md).
+install steps, see [README.md](../README.md).
 
 ## Contents
 
