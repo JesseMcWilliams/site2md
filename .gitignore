@@ -6,3 +6,15 @@ _test-output/
 *.egg-info/
 build/
 dist/
+
+# Added by aPeTemplate\New-ApeProject.ps1
+*.local.md
+*.log
+*.csv
+*.cred
+*.clixml
+Secrets/
+TestResults.xml
+.vscode/
+Thumbs.db
+desktop.ini
